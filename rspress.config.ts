@@ -2,8 +2,9 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
+  base: '/blog',
   root: path.join(__dirname, 'docs'),
-  title: 'voile\'s blog',
+  title: 'voile的blog',
   description: 'Rspack-based Static Site Generator',
   icon: '/rspress-icon.png',
   logo: {
